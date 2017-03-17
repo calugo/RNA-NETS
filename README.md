@@ -16,3 +16,7 @@ Use the mouse to interact with the network as follows:
 2. Center button or track-wheel: Zoom in or out.
 
 3. Right button: Translate the view to right or to the left.
+
+There is a link on the top of this page and [here](https://calugo.github.io/jsnet/index.html)
+
+Cheers!
