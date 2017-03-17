@@ -17,6 +17,6 @@ Use the mouse to interact with the network as follows:
 
 3. Right button: Translate the view to right or to the left.
 
-There is a link on the top of this page and [here](https://calugo.github.io/jsnet/index.html)
+There is a link on the top of this page and [here](https://calugo.github.io/jsnet/index.html) and a pretty jupyter notebook to generate pretty images of each aminoacid's connections [here](http://nbviewer.jupyter.org/github/calugo/RNA-NETS/blob/master/NOTEBOOKS/AMINOACIDS.ipynb)
 
 Cheers!
