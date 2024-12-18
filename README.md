@@ -2,8 +2,10 @@
 
 ![alt text](https://github.com/calugo/RNA-NETS/blob/master/RNANET.png "CODONS NET")
 
+<div>
  <iframe src="https://calugo.github.io/RNA-NETS/"
  style="border: 3px dotted black; width: 100%; height: 500px;"> </iframe>
+</div>
 
 This is the network of codons gruped according to the aminoacid they belong to.
 
@@ -22,7 +24,7 @@ Use the mouse to interact with the network as follows:
 
 
 
-The recommended way to play with the viewer, is on a full screen, which can be accessed [here](https://calugo.github.io/RNA-NETS/) and a legacy version with draggable nodes [here](https://calugo.github.io/RNA-NETS/OLDNET)
+The recommended way to play with the viewer, is on a full screen, which can be accessed [here](https://calugo.github.io/RNA-NETS/){:target="_blank"} and a legacy version with draggable nodes [here](https://calugo.github.io/RNA-NETS/OLDNET){:target="_blank"}
 
 A pretty jupyter notebook to generate pretty images of each aminoacid's connections [here](http://nbviewer.jupyter.org/github/calugo/RNA-NETS/blob/master/NOTEBOOKS/AMINOACIDS.ipynb).
 
