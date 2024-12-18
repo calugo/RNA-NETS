@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Genetic Code Neutral Network</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				font-family: Monospace;
+				background-color: #f0f0f0;
+				margin: 0px;
+				overflow: hidden;
+			}
+
+				#menu {
+				position: absolute;
+				bottom: 20px;
+				width: 100%;
+				text-align: center;
+				padding: 0;
+				margin: 0;
+			}
+
+				#topmenu {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				width: 100%;
+				text-align: right;
+				padding: 0;
+				margin: 0;
+			}
+
+				#statsbox, #infoBox{
+				position: absolute;
+				top: 50px;
+				width: 100%;
+				height: 6em;
+				background-color: #000000;
+				border: 1px solid black;
+				opacity:0.75;
+			  filter:alpha(opacity=75);
+				padding: 0;
+				margin: 0;
+				font-size: 1em;
+				font-weight: bold;
+				/*color: rgba(127,255,255,0.75);*/
+				color: rgba(255,255,255,0.75);
+				text-shadow: 0 0 10px rgba(0,255,255,0.95);
+			}
+
+			button {
+				color: rgb(100,100,200);
+				background: transparent;
+				border: 0px;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
+			button:hover {
+				background-color: rgba(0,255,255,0.5);
+			}
+			button:active {
+				color: #000000;
+				background-color: rgba(0,255,255,1);
+			}
+
+/*
+div.transbox
+{
+
+	position: relative;
+  left: -0vh;
+  top: -93vh;
+  width: 100rem;
+  height: 2rem;*/
+  /*margin: 30px 50px;*/
+/*  background-color: #000000;
+  border: 1px solid black;
+  opacity:0.6;*/
+/*  filter:alpha(opacity=60);*/
+ /* For IE8 and earlier */
+/*}*/
+/*
+/*div.transbox p
+{*/
+  /*margin: 30px 40px;*/
+/*  font-weight: bold;
+  color: #000000;
+} */
+
+		</style>
+	</head>
+	<body>
+	<!--div id="menu"></div-->
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+		<div class="container"></div>
+
+		<!-- script src="threejs/build/three.min.js"></script -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r69/three.min.js"></script>
+
+		<script src="controls/TrackballControls.js"></script>
+		<!-- script src="threejs/examples/js/controls/TrackballControls.js"></script -->
+
+		<!--script src="threejs/examples/js/libs/stats.min.js"></script-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
+
+		<div id="topmenu">
+			<button id="MODE">MODE</button>
+			<!-- button id="b_b">Bonds</button -->
+			<!-- button id="b_ab">Atoms + Bonds</button -->
+		</div>
+
+		<div id="menu"></div>
+		<!-- <div id="statsbox"></div> -->
+		<div id="infoBox">
+		<div id="ccc">CODON:<span></span></div>
+		<div id="nnn">NEIGHBOURS:<span></span></div>
+		<div id="aaa">AMINOACID: <span></span></div>
+		<div id="anan">AMINOACID NEIGHBOURS:<span></span></div>
+
+		</div>
+
+		<!-- div class="transbox"></div -->
+
+		<script src="gcodeold.js"></script>
+
+
+
+	</body>
+</html>
