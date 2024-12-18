@@ -1,6 +1,6 @@
 # THREE.JS GENETIC CODE NEUTRAL NETWORKS EXPLORER
 
-![alt text](https://github.com/calugo/RNA-NETS/blob/master/codonnetpic.png "CODONS NET")
+![alt text](https://github.com/calugo/RNA-NETS/blob/master/RNANET.png "CODONS NET")
 
 This is the network of codons gruped according to the aminoacid they belong to.
 
