@@ -2,14 +2,6 @@
 
 ![alt text](https://github.com/calugo/RNA-NETS/blob/master/RNANET.png "CODONS NET")
 
-
-```html
-<div>
- <iframe src="https://calugo.github.io/RNA-NETS/"
- style="border: 3px dotted black; width: 100%; height: 500px;"> </iframe>
-</div>
-```
-
 This is the network of codons gruped according to the aminoacid they belong to.
 
 Each node represents a codon and it is connected to those codons one mutation away.
