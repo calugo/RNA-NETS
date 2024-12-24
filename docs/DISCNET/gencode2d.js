@@ -27,8 +27,8 @@ animate();
 function readninit(callback) {
     //loads net
     $.ajax({
-	url: "https://rawgit.com/calugo/RNA-NETS/master/docs/DISCNET/gencode.json"
-        dataType: "text",
+	url: "https://rawgit.com/calugo/RNA-NETS/master/docs/DISCNET/gencode.json",
+	    dataType: "text",
 
         success: function (gencode) {
             var njson = $.parseJSON(gencode);
