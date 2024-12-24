@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Genetic Code Explorer</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				font-family: Monospace;
+				background-color: #f0f0f0;
+				margin: 0px;
+				overflow: hidden;
+			}
+
+				#menu {
+				position: absolute;
+				bottom: 20px;
+				width: 100%;
+				text-align: center;
+				padding: 0;
+				margin: 0;
+			}
+
+				#topmenu {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				width: 100%;
+				text-align: right;
+				padding: 0;
+				margin: 0;
+			}
+				#statsbox, #infoBox{
+				position: absolute;
+				top: 50px;
+				width: 100%;
+				height: 6em;
+				background-color: #000000;
+				border: 1px solid black;
+				opacity:0.75;
+			  	filter:alpha(opacity=75);
+				padding: 0;
+				margin: 0;
+				font-size: 1em;
+				font-weight: bold;
+				/*color: rgba(127,255,255,0.75);*/
+				color: rgba(255,255,255,0.75);
+				text-shadow: 0 0 10px rgba(0,255,255,0.95);
+			}
+
+			button {
+				color: rgb(100,100,200);
+				background: transparent;
+				border: 0px;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
+			button:hover {
+				background-color: rgba(0,255,255,0.5);
+			}
+			button:active {
+				color: #000000;
+				background-color: rgba(0,255,255,1);
+			}
+
+
+		</style>
+	</head>
+	<body>
+
+	<div class="container"></div>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+	
+	<script type="importmap">
+		{
+		  "imports": {
+			"three": "https://cdn.jsdelivr.net/npm/three@0.171.0/build/three.module.js",
+			"three/addons/": "https://cdn.jsdelivr.net/npm/three@0.171.0/examples/jsm/"
+		  }
+		}
+</script>
+
+<div id="topmenu"></div>
+		<!-- button id="MODE">MODE</button -->
+<!-- /div -->
+
+<div id="menu"></div>
+	<!-- <div id="statsbox"></div> -->
+<div id="infoBox">
+<div id="ccc">CODON:<span></span></div>
+<div id="nnn">NEIGHBOURS:<span></span></div>
+<div id="aaa">AMINOACID: <span></span></div>
+<div id="anan">AMINOACID NEIGHBOURS:<span></span></div>
+
+<!-- script src="gcnetwork.js" type="module"></script -->
+<script src="gencode2d.js" type="module"></script>
+
+</body>
+</html>
