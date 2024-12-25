@@ -9,7 +9,7 @@ This repo contains the demo codes for the network spanned by the genetic code. T
 
 ### Viewer II. Genetic code in two dimensions.
 
-![alt text](https://github.com/calugo/RNA-NETS/blob/master/RNANETII.png "CODONSII NET")
+![alt text](https://github.com/calugo/RNA-NETS/blob/master/RNANETII.png "CODONSII NET")
 
 This is the network of codons gruped according to the aminoacid they belong to.
 
