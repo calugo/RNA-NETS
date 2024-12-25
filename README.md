@@ -1,6 +1,15 @@
-# THREE.JS GENETIC CODE NEUTRAL NETWORKS EXPLORER
+# THREE.JS GENETIC CODE NEUTRAL NETWORKS EXPLORERS.
+
+
+This repo contains the demo codes for the network spanned by the genetic code. Two versions are coontained:
+
+### Viewer I - Genetic code in full three dimensions.
 
 ![alt text](https://github.com/calugo/RNA-NETS/blob/master/RNANET.png "CODONS NET")
+
+### Viewer II. Genetic code in two dimensions.
+
+![alt text](https://github.com/calugo/RNA-NETS/blob/master/RNANETII.png "CODONSII NET")
 
 This is the network of codons gruped according to the aminoacid they belong to.
 
@@ -20,6 +29,6 @@ Use the mouse to interact with the network as follows:
 
 The recommended way to play with the viewer, is on a full screen, which can be accessed <a href="https://calugo.github.io/RNA-NETS/" target="_blank">here</a> and a legacy version with draggable nodes  <a href="https://calugo.github.io/RNA-NETS/OLDNET" target="_blank">here</a>
 
-A pretty jupyter notebook to generate pretty images of each aminoacid's connections [here](http://nbviewer.jupyter.org/github/calugo/RNA-NETS/blob/master/NOTEBOOKS/AMINOACIDS.ipynb).
+A jupyter notebook to generate pretty images of each aminoacid's connections [here](http://nbviewer.jupyter.org/github/calugo/RNA-NETS/blob/master/NOTEBOOKS/AMINOSX.ipynb).
 
 Cheers!
