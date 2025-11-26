@@ -27,8 +27,10 @@ Use the mouse to interact with the network as follows:
 3. Right button: Translate the view to right or to the left.
 
 
-The recommended way to play with the viewer, is on a full screen, which can be accessed <a href="https://calugo.github.io/RNA-NETS/" target="_blank">here</a> and a legacy version with draggable nodes  <a href="https://calugo.github.io/RNA-NETS/OLDNET" target="_blank">here</a>
+The recommended way to play with the viewer, is on a full screen, which can be accessed <a href="https://calugo.github.io/RNA-NETS/" target="_blank">here</a>.
 
-A jupyter notebook to generate pretty images of each aminoacid's connections [here](http://nbviewer.jupyter.org/github/calugo/RNA-NETS/blob/master/NOTEBOOKS/AMINOSX.ipynb).
+The two dimensional disc version can be accessed <a href="https://calugo.github.io/RNA-NETS/DISCNET/" target="_blank">here</a>.
+
+A legacy version with draggable nodes can be found here  <a href="https://calugo.github.io/RNA-NETS/OLDNET" target="_blank">here</a>, and  jupyter notebook to generate pretty images of each aminoacid's connections [here](http://nbviewer.jupyter.org/github/calugo/RNA-NETS/blob/master/NOTEBOOKS/AMINOSX.ipynb).
 
 Cheers!
