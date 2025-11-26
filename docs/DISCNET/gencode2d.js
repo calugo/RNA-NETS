@@ -307,11 +307,11 @@ function init(){
     }
     /////////////////////////////
     
-	renderer = new THREE.WebGLRenderer( { antialias: true } );
+    renderer = new THREE.WebGLRenderer( { antialias: true } );
     renderer.setClearColor(0xf0f0f0);
-	renderer.setPixelRatio( window.devicePixelRatio );
-	renderer.setSize( window.innerWidth, window.innerHeight );
-	renderer.sortObjects = false;
+    renderer.setPixelRatio( window.devicePixelRatio );
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    renderer.sortObjects = false;
 	
     renderer.WebGLshadowMapEnabled = true;
     renderer.WebGLshadowMapType = THREE.PCFShadowMap;
@@ -325,6 +325,7 @@ function init(){
     controls.panSpeed = 0.8;
     controls.noZoom = false;
     controls.noPan = false;
+    controls.noRotate = true;
     controls.staticMoving = true;
     controls.dynamicDampingFactor = 0.3;
 
@@ -342,10 +343,11 @@ function init(){
     container.appendChild(stats.domElement);
 
     createMenu();
-	raycaster = new THREE.Raycaster();
+    raycaster = new THREE.Raycaster();
 
-	renderer.domElement.addEventListener( 'mousemove', onPointerMove );
-	window.addEventListener( 'resize', onWindowResize,false );
+    renderer.domElement.addEventListener( 'mousemove', onPointerMove );
+
+    window.addEventListener( 'resize', onWindowResize,false );
 
 }
 ////////////////////////////////////////////////
