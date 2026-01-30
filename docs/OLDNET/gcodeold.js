@@ -470,7 +470,7 @@ function readninit(callback) {
     //loads net
     $.ajax({
 	// FOR PRODUCTION url: "https://cdn.rawgit.com/calugo/RNA-NETS/master/jsonnets/nugencode.json",
-	url: "https://raw.githubusercontent.com/calugo/RNA-NETS/master/docsnugencode.json",
+	url: "https://raw.githubusercontent.com/calugo/RNA-NETS/master/docs/nugencode.json",
         //url: "nugencode.json",
         dataType: "text",
 
