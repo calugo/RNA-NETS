@@ -24,7 +24,7 @@ animate();
 function readninit(callback) {
     //loads net
     $.ajax({
-	url: "https://rawgit.com/calugo/RNA-NETS/master/docs/nugencode.json",
+	url: "https://raw.githubusercontent.com/calugo/RNA-NETS/master/docs/nugencode.json",
         dataType: "text",
 
         success: function (gencode) {
