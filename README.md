@@ -1,7 +1,7 @@
 # THREE.JS GENETIC CODE NEUTRAL NETWORKS INTERACTIVE EXPLORERS
 
 
-This repo contains the demo codes for the network spanned by the genetic code. Two versions are coontained:
+This repo contains the demo codes for the network spanned by the genetic code. Two versions are included:
 
 ### Viewer I - Genetic code in full three dimensions.
 
